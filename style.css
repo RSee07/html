@@ -1,0 +1,164 @@
+/* RICHARD SEE */
+
+/* Importing Google Font */
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+/*
+* - Apply to entire html doc
+Name of tag - Apply to all tags with the name
+# - Apply to the id
+. - Apply to all tags with the class
+
+Padding: Top Right Bottom Left
+*/
+
+
+/* Reset Style. Applied to entire HTML page */
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	background-color: #FFFFFF;
+ 	font-family: 'Open Sans', sans-serif;
+ }
+
+header {
+	width: 100%;
+}
+
+#title {
+	font-weight: 900; /* Boldest weight */
+	text-align: center;
+	font-size: 300%;
+	color: #000000;
+	padding: 40px 0 20px 0;
+	/*background-color: red;*/
+}
+
+/* PUT THIS IN LATER */
+/*#title a {
+	text-decoration: none; /* Remove the underline 
+}*/
+
+/* START menu-icon for mobile site START */
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(img/nav.png) center;
+}
+
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+/* END menu-icon for mobile site END */
+
+ul {
+	list-style-type: none; /* No bullet point style markers */
+	text-align: center;
+	padding-top: 20px 0 20px 0;
+	/*background-color: blue;*/
+}
+
+nav ul li {
+	font-size: 120%;
+	display: inline-block; /* Display list across instead of down */
+}
+
+nav ul li a {
+	font-weight: 500;
+	text-decoration: none; /* Remove the underline */
+	color: #000000;
+	padding: 0 25px 0 25px;
+}
+
+nav ul li a:hover {
+	color: #EF6614;
+}
+
+/* Change the colour of the current page header link to indicate what page user is on */
+/*.current {
+	color: #C3D7DF;
+}*/
+
+/* --- End Navigation --- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Body */
+body {
+	background: #F5F5F5;
+	color: #67727A;
+	font-family: 'Alegreya', sans-serif;
+	margin: 0;
+}
+
+h2 {
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	color: #F5F5F5;
+}
+
+h3 {
+	font-size: 175%;
+	line-height: 155%;
+	padding: 5% 0; /* Padding 5% top and bottom, 0 left and right */
+	font-weight: 400;
+	color: #F5F5F5;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #F5F5F5;
+	font-size: 160%;
+	line-height: 150%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
