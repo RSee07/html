@@ -84,6 +84,18 @@ nav ul li a:hover {
 
 /* --- End Navigation --- */
 
+.spacer {
+	padding: 15px 0 15px 0;
+	/*background-color: green;*/
+}
+
+#banner {
+	background: url("img/eyes2.JPG") no-repeat center;
+	display: block;
+	height: 120px;
+	width: 100%; 
+}
+
 
 
 
@@ -103,7 +115,7 @@ nav ul li a:hover {
 
 
 /* Body */
-body {
+/*body {
 	background: #F5F5F5;
 	color: #67727A;
 	font-family: 'Alegreya', sans-serif;
@@ -121,7 +133,7 @@ h2 {
 h3 {
 	font-size: 175%;
 	line-height: 155%;
-	padding: 5% 0; /* Padding 5% top and bottom, 0 left and right */
+	padding: 5% 0;  Padding 5% top and bottom, 0 left and right 
 	font-weight: 400;
 	color: #F5F5F5;
 }
@@ -141,7 +153,7 @@ img {
 	height: auto;
 	width: auto;
 	margin-bottom: -4px;
-}
+}*/
 
 
 
