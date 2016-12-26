@@ -74,7 +74,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: #EF6614;
+	color: #D64D00;
 }
 
 /* Change the colour of the current page header link to indicate what page user is on */
@@ -85,17 +85,29 @@ nav ul li a:hover {
 /* --- End Navigation --- */
 
 .spacer {
-	padding: 15px 0 15px 0;
+	padding: 20px 0 20px 0;
 	/*background-color: green;*/
 }
 
 #banner {
 	background: url("img/eyes2.JPG") no-repeat center;
-	display: block;
+	display: absolute;
 	height: 120px;
 	width: 100%; 
 }
 
+.standardBody {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.standardBodyInner {
+	padding: 0 40px 0 40px;
+}
+
+img {
+	max-width: 100%;
+}
 
 
 
