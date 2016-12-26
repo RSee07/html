@@ -59,6 +59,11 @@ img {
 	object-fit: cover; /* Image will fill the entire container and crop out parts if overflowing */
 }
 
+img:hover {
+	transition: all 0.5s ease;
+	filter: blur(10px);
+}
+
 /*.portrait {
 	-webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
