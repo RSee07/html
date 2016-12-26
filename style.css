@@ -23,6 +23,52 @@ Padding: Top Right Bottom Left
  	font-family: 'Open Sans', sans-serif;
  }
 
+.standardBody {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 40px 0 40px;
+}
+
+.standardBodyInner {
+	width: 100%;
+/*	min-height: 350px;
+	max-height: 350px;
+	height: 350px;*/
+}
+
+.spacer {
+	padding: 20px 0 20px 0;
+	/*background-color: green;*/
+}
+
+#height400 {
+	height: 400px;
+}
+
+.fill {
+    display: flex; /* A flexbox ensures elements behave predictably when acccomdating different screen sizes */
+    justify-content: center; /* Make sure content is centred when the entire image is not used */
+    align-items: center;
+    overflow: hidden; /* Hide parts of the image that are overflowing out of the container */
+}
+
+img { 
+	max-width: 100%;
+	min-height: 100%; 
+	min-width: 100%; 
+	object-fit: cover; /* Image will fill the entire container and crop out parts if overflowing */
+}
+
+/*.portrait {
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}*/
+
+/* --- End General --- */
+
 header {
 	width: 100%;
 }
@@ -35,6 +81,8 @@ header {
 	padding: 40px 0 20px 0;
 	/*background-color: red;*/
 }
+
+/* --- End Title --- */
 
 /* PUT THIS IN LATER */
 /*#title a {
@@ -84,11 +132,6 @@ nav ul li a:hover {
 
 /* --- End Navigation --- */
 
-.spacer {
-	padding: 20px 0 20px 0;
-	/*background-color: green;*/
-}
-
 #banner {
 	background: url("img/eyes2.JPG") no-repeat center;
 	display: absolute;
@@ -96,22 +139,38 @@ nav ul li a:hover {
 	width: 100%; 
 }
 
-.standardBody {
-	max-width: 1280px;
-	margin: 0 auto;
+/* --- End Banner --- */
+
+.borderThirdLeft {
+	/*background-color: orange;*/
+	width: 25%;
+	margin-right: 2%;
+	float: left;
+	height: 400px;
 }
 
-.standardBodyInner {
-	padding: 0 40px 0 40px;
+.borderThirdCenter {
+	/*background-color: grey;*/
+	width: 42%;
+	margin: 0 2% 0 2%;
+	float: left;
+	height: 400px;
 }
 
-img {
-	max-width: 100%;
+.borderThirdRight {
+	/*background-color: teal;*/
+	width: 25%;
+	margin-left: 2%;
+	float: left;
+	height: 400px;
 }
 
-
-
-
+.borderPadding {
+	background-color: white;
+	color: white;
+	width: 40px;
+	float: left;
+}
 
 
 
