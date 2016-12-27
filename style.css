@@ -29,11 +29,13 @@ Padding: Top Right Bottom Left
 	padding: 0 40px 0 40px;
 }
 
-.standardBodyInner {
+.inner {
 	width: 100%;
+	height: 100%;
 /*	min-height: 350px;
 	max-height: 350px;
 	height: 350px;*/
+	position: relative;
 }
 
 .spacer {
@@ -45,7 +47,7 @@ Padding: Top Right Bottom Left
 	height: 400px;
 }
 
-.fill {
+.imageFill {
     display: flex; /* A flexbox ensures elements behave predictably when acccomdating different screen sizes */
     justify-content: center; /* Make sure content is centred when the entire image is not used */
     align-items: center;
@@ -59,18 +61,25 @@ img {
 	object-fit: cover; /* Image will fill the entire container and crop out parts if overflowing */
 }
 
-img:hover {
-	transition: all 0.5s ease;
-	filter: blur(10px);
+.blur:hover {
+	transition: all 0.3s ease;
+	filter: blur(7px);
 }
 
-/*.portrait {
-	-webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}*/
+p {
+	margin: 0;
+}
+
+.text {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); /* 2D translation */
+	padding: 0 5px 0 5px;
+}
 
 /* --- End General --- */
 
@@ -138,8 +147,8 @@ nav ul li a:hover {
 /* --- End Navigation --- */
 
 #banner {
-	background: url("img/eyes2.JPG") no-repeat center;
-	display: absolute;
+	/*background: url("img/eyes2.JPG") no-repeat center;*/
+	/*display: absolute;*/
 	height: 120px;
 	width: 100%; 
 }
@@ -176,6 +185,7 @@ nav ul li a:hover {
 	width: 40px;
 	float: left;
 }
+
 
 
 
