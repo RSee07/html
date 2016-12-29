@@ -15,11 +15,11 @@ Padding: Top Right Bottom Left
 
 
 /* Reset Style. Applied to entire HTML page */
- * {
+* {
  	margin: 0;
  	padding: 0;
  	border: 0;
- 	background-color: #FFFFFF;
+ 	background-color: #FFFFFF; /* Grey #3F3F3F */
  	font-family: 'Open Sans', sans-serif;
  }
 
@@ -193,7 +193,24 @@ nav ul li a:hover {
 
 
 
+@media screen and (max-width: 768px) {
+    * {
+	 	background-color: #252525;
+ 	}
 
+	#title {
+		color: #FFFFFF;
+
+	}
+
+	nav ul li a {
+		color: #FFFFFF;
+	}
+
+	p {
+		background-color: #FFFFFF;
+	}
+}
 
 
 
