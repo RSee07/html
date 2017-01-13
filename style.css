@@ -38,6 +38,12 @@ Padding: Top Right Bottom Left
 	position: relative;
 }
 
+.inner1 {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
 .spacer {
 	padding: 20px 0 20px 0;
 	/*background-color: green;*/
@@ -45,6 +51,11 @@ Padding: Top Right Bottom Left
 
 #height400 {
 	height: 400px;
+}
+
+#height200 {
+	height: 200px;
+	background-color: #252525;
 }
 
 .imageFill {
@@ -186,10 +197,49 @@ nav ul li a:hover {
 	float: left;
 }
 
+.parallax { 
+    /* The image used */
+    background-image: url("img/beach.JPG");
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --- End Boxes --- */
+
+.parallaxFooter { 
+    /* The image used */
+    /*background-image: url("img/mop.JPG");*/
+
+    /*background-color: #252525;*/
+
+	height: 200px;
+	/*width: 100%;*/
+	position: fixed;
+	z-index: -1;
+	bottom: 0;
+	/*background: green;*/
+
+}
+
+.margin {
+	margin-bottom: 200px;
+}
 
 
-
-
+.textFooter {
+	color: green;
+	padding-top: 50px;
+	/*height: 200px;*/
+	/*position: fixed;*/
+	background-color: yellow;
+}
 
 
 
@@ -211,6 +261,18 @@ nav ul li a:hover {
 		background-color: #FFFFFF;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
