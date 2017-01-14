@@ -38,12 +38,6 @@ Padding: Top Right Bottom Left
 	position: relative;
 }
 
-.inner1 {
-	width: 100%;
-	height: 100%;
-	position: fixed;
-}
-
 .spacer {
 	padding: 20px 0 20px 0;
 	/*background-color: green;*/
@@ -220,7 +214,7 @@ nav ul li a:hover {
     /*background-color: #252525;*/
 
 	height: 200px;
-	/*width: 100%;*/
+	width: 100%;
 	position: fixed;
 	z-index: -1;
 	bottom: 0;
@@ -232,13 +226,20 @@ nav ul li a:hover {
 	margin-bottom: 200px;
 }
 
+.centerText {
+	text-align: center;
+	bottom: 0;
+	/*position: fixed;*/
+	/*margin: auto;*/
+}
 
 .textFooter {
-	color: green;
-	padding-top: 50px;
-	/*height: 200px;*/
-	/*position: fixed;*/
-	background-color: yellow;
+	color: white;
+	/*padding-top: 50px;*/
+	background-color: blue;
+	/*bottom: 0;*/
+	/*text-align: center;*/
+	/*margin: auto;*/
 }
 
 
