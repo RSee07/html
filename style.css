@@ -207,43 +207,34 @@ nav ul li a:hover {
 
 /* --- End Boxes --- */
 
+/* In order to create the parallax footer, a bottom margin must be applied to the tag/div directly above the footer */
+.margin {
+	margin-bottom: 200px;
+}
+
 .parallaxFooter { 
-    /* The image used */
-    /*background-image: url("img/mop.JPG");*/
-
-    /*background-color: #252525;*/
-
+    background-color: #252525;
 	height: 200px;
 	width: 100%;
 	position: fixed;
 	z-index: -1;
 	bottom: 0;
-	/*background: green;*/
-
-}
-
-.margin {
-	margin-bottom: 200px;
-}
-
-.centerText {
-	text-align: center;
-	bottom: 0;
-	/*position: fixed;*/
-	/*margin: auto;*/
 }
 
 .textFooter {
 	color: white;
-	/*padding-top: 50px;*/
-	background-color: blue;
-	/*bottom: 0;*/
-	/*text-align: center;*/
-	/*margin: auto;*/
+	height: 30px;
+	width: 100%;
+	background-color: #252525;
+	font-size: 120%;
+	text-align: center;
+	position: absolute; /* Positioned relative to the first positioned ancestor */
+	bottom: 0;
 }
 
 
-
+/* Media queries alter the layout of the page depending on variables such as the screen width,
+ device, or if the page is in portrait or landscape */
 @media screen and (max-width: 768px) {
     * {
 	 	background-color: #252525;
